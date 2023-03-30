@@ -22,6 +22,7 @@ img {
     display: block;
 }
 p,
+h1,
 h3,
 h4,
 ul {
@@ -36,9 +37,12 @@ ul {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.header {
+    border-bottom: 1px solid #ececec;
+}
 .header > .container {
     display: flex;
-    border-bottom: 1px solid #ececec;
+
     align-items: center;
     justify-content: space-between;
     padding-left: 15px;
@@ -96,6 +100,9 @@ ul {
 }
 .first-section {
     background-color: var(--section-bg-primary);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    min-width: 1300px;
 }
 .first-section .container {
     display: flex;
@@ -110,9 +117,7 @@ ul {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 106px;
     margin-bottom: 30px;
-    margin-top: 0;
 }
 .first-section button {
     cursor: pointer;
@@ -125,7 +130,6 @@ ul {
     background: var(--brand-logo-color);
     border: none;
     border-radius: 4px;
-    margin-bottom: 106px;
     padding: 10px 41px 10px 42px;
 }
 .our-strength {
@@ -164,6 +168,7 @@ ul {
 }
 .our-team {
     background-color: var(--section-bg-secondary);
+    min-width: 1200px;
 }
 .our-team-list {
     display: flex;
@@ -193,6 +198,7 @@ ul {
     margin-bottom: 30px;
 }
 .footer {
+    min-width: 1200px;
     background-color: var(--section-bg-primary);
     padding-top: 60px;
     padding-bottom: 60px;
